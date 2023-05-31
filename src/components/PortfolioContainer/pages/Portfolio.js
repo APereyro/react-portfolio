@@ -3,8 +3,8 @@ import Project from '../../Project/Project';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div  style={{ backgroundColor: "#14213dff", color: "#e5e5e5ff", padding: "20px",height: "100vh%" }}>
+      <h1 style={{textAlign:"center"}}>Portfolio</h1>
       <Project />
     </div>
   );

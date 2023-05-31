@@ -8,7 +8,7 @@ function Project() {
     <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       {data.map((item) => (
         <div key={item.id} style={{ margin: '10px' }}>
-          <Card style={{ width: '18rem' }}>
+          <Card style={{ width: '18rem', backgroundColor: "#000000ff" }}>
             <Card.Img variant="top" src={item.Image} />
             <Card.Body>
               <Card.Title><a href={item.Github}>{item.Title}</a></Card.Title>

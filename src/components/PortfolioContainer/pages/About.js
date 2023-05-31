@@ -2,9 +2,9 @@ import React from "react";
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
+    <div style={{ backgroundColor: "#14213dff", color: "#ffffff", padding: "20px", height: "100vh", display: "flex", flexDirection: "column"}}>
+      <h1 style={{ textAlign: "center" }}>About Page</h1>
+      <p style={{ textAlign: "center" }}>
         Hello, my name is Alan, and I'm a passionate and motivated
         individual who recently completed a coding bootcamp. During the
         bootcamp, I gained a solid foundation in JavaScript, React, HTML, and

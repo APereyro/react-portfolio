@@ -23,9 +23,16 @@ export default function Contact() {
                 },
             );
     };
+    useEffect(() => {
+      const body = document.querySelector('body');
+      body.style.overflow = 'hidden';
+      return () => {
+        body.style.overflow = 'auto';
+      };
+    }, []);
   return (
-    <div className="container contact-page">
-      <h1>About Page</h1>
+    <div className="container contact-page" style={{ backgroundColor: "#14213dff", color: "#ffffff", padding: "20px",height: "100vh",width:"100vw",overflow: "hidden" }}>
+      <h1 style={{textAlign:"center"}}>About Page</h1>
       <div className="text-zone">
         <p>
           Greetings! I'm Alan, a dedicated and enthusiastic individual
@@ -68,7 +75,7 @@ export default function Contact() {
                 ></textarea>
               </li>
               <li>
-                <input
+                <input style={{ backgroundColor: "#14213dff", color: "#ffffff", }}
                   type="submit"
                   className="flat-button"
                   value="Send"

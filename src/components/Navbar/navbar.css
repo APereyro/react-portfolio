@@ -1,6 +1,6 @@
 
 .nav.nav-tabs {
-    background-color: #f8f9fa;
+    background-color: "#000000ff";
     padding: 10px;
     border-radius: 5px;
     display: flex;
@@ -8,11 +8,13 @@
   }
   
   .nav-item {
+   
     margin-right: 10px;
   }
   
   .nav-link {
-    color: #333;
+    
+    color: #fca311ff;
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -20,13 +22,15 @@
   }
   
   .nav-link:hover {
-    color: #fff;
-    background-color: #007bff;
+    
+    color: #fca311ff;
+    background-color: #fca311ff;
     border-radius: 5px;
   }
   
   .nav-link.active {
-    color: #fff;
+    
+    color: #fca311ff;
     background-color: #007bff;
     border-radius: 5px;
   }

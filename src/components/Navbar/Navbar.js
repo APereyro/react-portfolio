@@ -4,34 +4,31 @@ function Navbar({ currentPage, handlePageChange }) {
   return (
     <header style={{ backgroundColor: "#000000ff", color: "#e5e5e5ff", padding: "20px" }}>
       <nav>
-        <ul className="nav nav-tabs" style={{ color: "#e5e5e5ff" }}>
+        <ul className="nav nav-tabs" style={{ color: "#e5e5e5ff", backgroundColor: "#000000ff" }}>
           <h2 style={{ color: "#e5e5e5ff" }}>Alan Pereyro</h2>
           <li className="nav-item">
             <a
-              style={{ color: "#e5e5e5ff", transition: "color 0.3s" }}
+              className={`nav-link ${currentPage === 'About' ? 'active' : ''}`}
               href="#about"
               onClick={() => handlePageChange('About')}
-              className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
             >
               About
             </a>
           </li>
           <li className="nav-item">
             <a
-              style={{ color: "#e5e5e5ff", transition: "color 0.3s" }}
+              className={`nav-link ${currentPage === 'Portfolio' ? 'active' : ''}`}
               href="#portfolio"
               onClick={() => handlePageChange('Portfolio')}
-              className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
             >
               Portfolio
             </a>
           </li>
           <li className="nav-item">
             <a
-              style={{ color: "#e5e5e5ff", transition: "color 0.3s" }}
+              className={`nav-link ${currentPage === 'Contact' ? 'active' : ''}`}
               href="#contact"
               onClick={() => handlePageChange('Contact')}
-              className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
             >
               Contact
             </a>
@@ -41,8 +38,8 @@ function Navbar({ currentPage, handlePageChange }) {
       <style>
         {`
         .nav-link:hover,
-        .nav-link:active {
-          color: #14213dff;
+        .nav-link.active {
+          color: #fca311ff !important;
         }
         `}
       </style>
