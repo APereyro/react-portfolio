@@ -1,14 +1,14 @@
 import React from "react";
-import "./navbar.css"
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <header>
+    <header style={{ backgroundColor: "#000000ff", color: "#e5e5e5ff", padding: "20px" }}>
       <nav>
-        <ul className="nav nav-tabs">
-        <h2>Alan Pereyro</h2>
+        <ul className="nav nav-tabs" style={{ color: "#e5e5e5ff" }}>
+          <h2 style={{ color: "#e5e5e5ff" }}>Alan Pereyro</h2>
           <li className="nav-item">
             <a
+              style={{ color: "#e5e5e5ff", transition: "color 0.3s" }}
               href="#about"
               onClick={() => handlePageChange('About')}
               className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
@@ -18,6 +18,7 @@ function Navbar({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
+              style={{ color: "#e5e5e5ff", transition: "color 0.3s" }}
               href="#portfolio"
               onClick={() => handlePageChange('Portfolio')}
               className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
@@ -27,6 +28,7 @@ function Navbar({ currentPage, handlePageChange }) {
           </li>
           <li className="nav-item">
             <a
+              style={{ color: "#e5e5e5ff", transition: "color 0.3s" }}
               href="#contact"
               onClick={() => handlePageChange('Contact')}
               className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
@@ -36,6 +38,14 @@ function Navbar({ currentPage, handlePageChange }) {
           </li>
         </ul>
       </nav>
+      <style>
+        {`
+        .nav-link:hover,
+        .nav-link:active {
+          color: #14213dff;
+        }
+        `}
+      </style>
     </header>
   );
 }
