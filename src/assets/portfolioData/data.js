@@ -4,7 +4,8 @@ export const data = [
     Title: "BiteBud",
     Image: "/images/BiteBud.png",
     Text: "BiteBud is a web application that allows users to search for recipes based on ingredients they have on hand.",
-    Github: "https://github.com/Suzakijun1/BiteBud"
+    Github: "https://github.com/Suzakijun1/BiteBud",
+    Live: "https://suzakijun1.github.io/BiteBud/",
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const data = [
     Image: "/images/BurgerBuilder.png",
     Text: "Burger Builder is a web application that allows users to create a burger and add it to a database. ",
     Github: "https://github.com/APereyro/BurgerBuilder",
+    Live:"https://afternoon-peak-41409.herokuapp.com/",
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const data = [
     Image: "/images/NoteTaker.png",
     Text: "Note Taker is a web application that allows users to create, save, and delete notes.",
     Github: "https://github.com/APereyro/Note_Taker",
+    Live: "https://hidden-thicket-72406.herokuapp.com/",
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const data = [
     Image: "/images/WeatherForecast.png",
     Text:  "This is a simple web application that allows users to search for a city and get the weather forecast for the next 5 days",
     Github: "https://github.com/APereyro/Weather_Forecast",
+    Live:"https://apereyro.github.io/Weather_Forecast/",
   },
   {
     id: 5,
@@ -33,12 +37,14 @@ export const data = [
     Image: "/images/DailyPlanner.png",
     Text: "Daily Planner is a web application that allows you to plan your daily schedule by hour.",
     Github: "https://github.com/APereyro/Daily_Planner",
+    Live:"https://apereyro.github.io/Daily_Planner/",
   },
   {
     id: 6,
     Title: "Password Generator",
     Image: "/images/PasswordPro.png",
     Text: "Password Generator is a web application that allows users to generate a random password based on criteria they’ve selected.",
-    Github: "https://github.com/APereyro/PasswordPro"
+    Github: "https://github.com/APereyro/PasswordPro",
+    Live:"https://apereyro.github.io/PasswordPro/",
   },
 ];

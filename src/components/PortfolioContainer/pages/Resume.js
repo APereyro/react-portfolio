@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#14213dff", color: "#e5e5e5ff", padding: "20px",height: "100vh" }}>
       <h1>Resume Page</h1>
       <p>
         Hardworking, ethical, and detail-oriented candidate ready to take on
@@ -13,3 +13,9 @@ export default function Resume() {
     </div>
   );
 }
+
+
+{/* <FontAwesomeIcon icon={faReact} />
+<FontAwesomeIcon icon={faCSS3Logo} />
+<FontAwesomeIcon icon={faHTML5Logo} />
+<FontAwesomeIcon icon={faJavaScript(JS)} /> */}

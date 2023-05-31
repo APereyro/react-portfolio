@@ -1,11 +1,12 @@
 import React from "react";
+import "./navbar.css"
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
     <header style={{ backgroundColor: "#000000ff", color: "#e5e5e5ff", padding: "20px" }}>
       <nav>
-        <ul className="nav nav-tabs" style={{ color: "#e5e5e5ff", backgroundColor: "#000000ff" }}>
-          <h2 style={{ color: "#e5e5e5ff" }}>Alan Pereyro</h2>
+          <h2 style={{ color: "#e5e5e5ff", textAlign:"center" }}>Alan Pereyro</h2>
+        <ul className="nav nav-tabs" style={{ color: "#e5e5e5ff", backgroundColor: "#000000ff",  }}>
           <li className="nav-item">
             <a
               className={`nav-link ${currentPage === 'About' ? 'active' : ''}`}
@@ -24,6 +25,15 @@ function Navbar({ currentPage, handlePageChange }) {
               Portfolio
             </a>
           </li>
+          <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
           <li className="nav-item">
             <a
               className={`nav-link ${currentPage === 'Contact' ? 'active' : ''}`}
