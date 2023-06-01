@@ -5,14 +5,16 @@ import "./project.css";
 
 function Project() {
   console.log(data);
+  console.log();
   return (
     <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
+      
       {data.map((item) => (
         <div key={item.id} style={{ margin: "10px" }}>
           <Card style={{ width: "18rem", backgroundColor: "#000000ff" }}>
             <a
               href={item.Live}
-              target="_blank"  
+              target="_blank"
               rel="noopener noreferrer" 
               style={{
                 textDecoration: "none",
@@ -60,7 +62,9 @@ function Project() {
         </div>
       ))}
     </div>
+    
   );
 }
+
 
 export default Project;

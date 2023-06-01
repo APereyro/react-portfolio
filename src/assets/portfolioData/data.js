@@ -1,8 +1,15 @@
+import BiteBud from "../images/BiteBud.png";
+import BurgerBuilder from "../images/BurgerBuilder.png";
+import NoteTaker from "../images/NoteTaker.png";
+import WeatherForecast from "../images/WeatherForecast.png";
+import DailyPlanner from "../images/DailyPlanner.png";
+import PasswordPro from "../images/PasswordPro.png";
+
 export const data = [
   {
     id: 1,
     Title: "BiteBud",
-    Image: "/images/BiteBud.png",
+    Image: BiteBud,
     Text: "BiteBud is a web application that allows users to search for recipes based on ingredients they have on hand.",
     Github: "https://github.com/Suzakijun1/BiteBud",
     Live: "https://suzakijun1.github.io/BiteBud/",
@@ -10,7 +17,7 @@ export const data = [
   {
     id: 2,
     Title: "Burger Builder",
-    Image: "/images/BurgerBuilder.png",
+    Image: BurgerBuilder,
     Text: "Burger Builder is a web application that allows users to create a burger and add it to a database. ",
     Github: "https://github.com/APereyro/BurgerBuilder",
     Live:"https://afternoon-peak-41409.herokuapp.com/",
@@ -18,7 +25,7 @@ export const data = [
   {
     id: 3,
     Title: "Note Taker",
-    Image: "/images/NoteTaker.png",
+    Image: NoteTaker,
     Text: "Note Taker is a web application that allows users to create, save, and delete notes.",
     Github: "https://github.com/APereyro/Note_Taker",
     Live: "https://hidden-thicket-72406.herokuapp.com/",
@@ -26,7 +33,7 @@ export const data = [
   {
     id: 4,
     Title: "Weather Forecast",
-    Image: "/images/WeatherForecast.png",
+    Image: WeatherForecast,
     Text:  "This is a simple web application that allows users to search for a city and get the weather forecast for the next 5 days",
     Github: "https://github.com/APereyro/Weather_Forecast",
     Live:"https://apereyro.github.io/Weather_Forecast/",
@@ -34,7 +41,7 @@ export const data = [
   {
     id: 5,
     Title: "Daily Planner",
-    Image: "/images/DailyPlanner.png",
+    Image: DailyPlanner,
     Text: "Daily Planner is a web application that allows you to plan your daily schedule by hour.",
     Github: "https://github.com/APereyro/Daily_Planner",
     Live:"https://apereyro.github.io/Daily_Planner/",
@@ -42,7 +49,7 @@ export const data = [
   {
     id: 6,
     Title: "Password Generator",
-    Image: "/images/PasswordPro.png",
+    Image: PasswordPro,
     Text: "Password Generator is a web application that allows users to generate a random password based on criteria they’ve selected.",
     Github: "https://github.com/APereyro/PasswordPro",
     Live:"https://apereyro.github.io/PasswordPro/",

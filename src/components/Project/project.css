@@ -3,3 +3,7 @@
     transition: color 0.3s ease;
   }
 
+  .card-text {
+    color: #e5e5e5ff;
+  }
+
