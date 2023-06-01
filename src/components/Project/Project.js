@@ -12,8 +12,8 @@ function Project() {
           <Card style={{ width: "18rem", backgroundColor: "#000000ff" }}>
             <a
               href={item.Live}
-              target="_blank"  // Added target="_blank" to open in a new window or tab
-              rel="noopener noreferrer" // Added rel attribute for security best practices
+              target="_blank"  
+              rel="noopener noreferrer" 
               style={{
                 textDecoration: "none",
                 position: "relative",
