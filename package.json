@@ -1,8 +1,8 @@
 {
+  "homepage": "http://APereyro.github.io/react-portfolio",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://APereyro.github.io/react-portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
@@ -32,7 +32,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
