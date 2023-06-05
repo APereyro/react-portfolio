@@ -21,6 +21,8 @@ This is a personal portfolio website built using React. It showcases my skills, 
 
 You can see a live demo of the portfolio [here](https://apereyro.github.io/react-portfolio/).
 
+![Screenshot (75)](https://github.com/APereyro/react-portfolio/assets/124737955/cd301043-6508-4d59-993f-4954ce3de638)
+
 ## Features
 
 - Responsive design for seamless viewing on different devices
