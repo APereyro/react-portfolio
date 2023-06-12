@@ -4,6 +4,7 @@ import NoteTaker from "../images/NoteTaker.png";
 import WeatherForecast from "../images/WeatherForecast.png";
 import DailyPlanner from "../images/DailyPlanner.png";
 import PasswordPro from "../images/PasswordPro.png";
+import Fitness from "../images/Fitness.png";
 
 export const data = [
   {
@@ -54,4 +55,12 @@ export const data = [
     Github: "https://github.com/APereyro/PasswordPro",
     Live:"https://apereyro.github.io/PasswordPro/",
   },
+   {
+  id: 7,
+  Title: "Fitness (Into Your Day)",
+  Image: Fitness,
+  Text: "Our goal is to provide a platform where you can find valuable information and inspiration to help you on your fitness journey.",
+  Github: "https://github.com/brandon6457/fitness",
+  Live:"https://github.com/brandon6457/fitness",
+},
 ];
