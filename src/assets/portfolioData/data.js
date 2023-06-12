@@ -4,7 +4,7 @@ import NoteTaker from "../images/NoteTaker.png";
 import WeatherForecast from "../images/WeatherForecast.png";
 import DailyPlanner from "../images/DailyPlanner.png";
 import PasswordPro from "../images/PasswordPro.png";
-import Fitness from "../images/Fitness.png";
+import Fitness from "../images/Screenshot(79).png";
 
 export const data = [
   {
