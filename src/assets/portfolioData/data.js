@@ -6,6 +6,7 @@ import DailyPlanner from "../images/DailyPlanner.png";
 import PasswordPro from "../images/PasswordPro.png";
 import Fitness from "../images/Fitness.png";
 
+
 export const data = [
   {
     id: 1,
@@ -64,3 +65,4 @@ export const data = [
   Live:"https://github.com/brandon6457/fitness",
 },
 ];
+
