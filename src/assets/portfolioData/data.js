@@ -62,7 +62,7 @@ export const data = [
   Image: Fitness,
   Text: "Our goal is to provide a platform where you can find valuable information and inspiration to help you on your fitness journey.",
   Github: "https://github.com/brandon6457/fitness",
-  Live:"https://github.com/brandon6457/fitness",
+  Live:"https://evening-scrubland-38912.herokuapp.com/",
 },
 ];
 
