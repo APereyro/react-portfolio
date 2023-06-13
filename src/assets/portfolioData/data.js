@@ -4,7 +4,8 @@ import NoteTaker from "../images/NoteTaker.png";
 import WeatherForecast from "../images/WeatherForecast.png";
 import DailyPlanner from "../images/DailyPlanner.png";
 import PasswordPro from "../images/PasswordPro.png";
-import Fitness from "../images/Screenshot (79).png";
+import Fitness from "../images/Fitness.png";
+
 
 export const data = [
   {
@@ -51,11 +52,11 @@ export const data = [
     id: 6,
     Title: "Password Generator",
     Image: PasswordPro,
-    Text: "Password Generator is a web application that allows users to generate a random password based on criteria they’ve selected.",
+    Text: "Password Generator is a web application that allows users to generate a random password based on criteria theyve selected.",
     Github: "https://github.com/APereyro/PasswordPro",
     Live:"https://apereyro.github.io/PasswordPro/",
   },
-   {
+  {
   id: 7,
   Title: "Fitness (Into Your Day)",
   Image: Fitness,
@@ -64,3 +65,4 @@ export const data = [
   Live:"https://github.com/brandon6457/fitness",
 },
 ];
+
