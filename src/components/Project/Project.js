@@ -48,7 +48,7 @@ function Project() {
                   rel="noopener noreferrer" 
                   style={{
                     textDecoration: "none",
-                    color: "#e5e5e5ff",
+                    color: "#fca311ff",
                     transition: "color 0.3s ease",
                   }}
                   className="link-hover-effect"
