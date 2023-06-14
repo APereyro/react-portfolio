@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.149a280e.css",
+    "main.js": "/react-portfolio/static/js/main.14dfbfe4.js",
+    "static/media/BiteBud.png": "/react-portfolio/static/media/BiteBud.9571283f95da2ed89d7d.png",
+    "static/media/profilePic.jpg": "/react-portfolio/static/media/profilePic.94c2e1e27dc1fb87826b.jpg",
+    "static/media/BurgerBuilder.png": "/react-portfolio/static/media/BurgerBuilder.b5aac929796d468960f3.png",
+    "static/media/DailyPlanner.png": "/react-portfolio/static/media/DailyPlanner.55615703c4762a05eb68.png",
+    "static/media/Fitness.png": "/react-portfolio/static/media/Fitness.1ed117f465f8c7a751b9.png",
+    "static/media/WeatherForecast.png": "/react-portfolio/static/media/WeatherForecast.09b34cb7902ee12187c8.png",
+    "static/media/PasswordPro.png": "/react-portfolio/static/media/PasswordPro.88f863b9c5cb5e5d8628.png",
+    "static/media/NoteTaker.png": "/react-portfolio/static/media/NoteTaker.c5e7ad5a939829974a09.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.149a280e.css.map": "/react-portfolio/static/css/main.149a280e.css.map",
+    "main.14dfbfe4.js.map": "/react-portfolio/static/js/main.14dfbfe4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.149a280e.css",
+    "static/js/main.14dfbfe4.js"
+  ]
+}
